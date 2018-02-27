@@ -1,5 +1,3 @@
-Table of Contents
-=================
 # LUCKY DOG API 使用说明
 
 
