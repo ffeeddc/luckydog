@@ -1,3 +1,25 @@
+Table of Contents
+=================
+
+   * [LUCKY-DOG-API 使用说明](#lucky-dog-api-使用说明)
+      * [<strong>1. 智能合约</strong>](#1-智能合约)
+         * [1.1 1000 luckydog.createDog(owner, seniority, name, gene, img, father, mother,trait,male_rest_time,female_rest_time)](#11-1000-luckydogcreatedogowner-seniority-name-gene-img-father-mothertraitmale_rest_timefemale_rest_time)
+         * [1.2 1001 luckydog.createTrade(dog_id,type,amount)](#12-1001-luckydogcreatetradedog_idtypeamount)
+         * [1.3 1002 luckydog.cancelTrade(tid)](#13-1002-luckydogcanceltradetid)
+         * [1.4 1003 luckydog.presentDog(dog_id,uid)](#14-1003-luckydogpresentdogdog_iduid)
+         * [1.5 1004 luckydog.payDog(tid)](#15-1004-luckydogpaydogtid)
+         * [1.6 1005 luckydog.payMatch(tid,dog_id)](#16-1005-luckydogpaymatchtiddog_id)
+      * [<strong>2. 查询接口</strong>](#2-查询接口)
+         * [2.1 GET /:uid/dogs](#21-get-uiddogs)
+         * [2.2 GET /:type/trades](#22-get-typetrades)
+         * [2.3 GET /trade/:tid](#23-get-tradetid)
+         * [2.4 GET /dog/:dog_id](#24-get-dogdog_id)
+      * [<strong>3. 调用说明</strong>](#3-调用说明)
+         * [3.1 测试环境](#31-测试环境)
+         * [3.2 正式环境](#32-正式环境)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
+
 # LUCKY-DOG-API 使用说明
 
 
