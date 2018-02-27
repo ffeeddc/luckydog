@@ -1,26 +1,3 @@
-Table of Contents
-=================
-
-   * [LUCKY-DOG-API 使用说明](#LUCKY-DOG-API)
-      * [<strong>1. 智能合约</strong>](#1-智能合约)
-         * [1.1 luckydog.createDog](#11-luckydogcreatedog)
-         * [1.2 luckydog.createTrade](#12-appsdbgetmodel)
-         * [1.3 luckydog.cancelTrade](#13-luckydogcanceltrade)
-         * [1.4 luckydog.presentDog](#14-luckydogpresentdog)
-         * [1.5 luckydog.payDog](#15-luckydogpaydog)
-         * [1.6 luckydog.payMatch](#16-luckydogpaymatch)
-      * [2. 查询接口](#2-查询接口)
-         * [2.1 /:uid/dogs](#21-uiddogs)
-         * [2.2 /:type/trades](#21-typetrades)
-         * [2.3 /trade/:tid](#21-tradetid)
-         * [2.4 /dog/:dog_id](#21-dogdogid)
-      * [3. 调用说明](#2-调用说明)
-               * [3.1 测试环境](#31-测试环境)
-               * [3.2 正式环境](#31-正式环境)
-               
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
-         
-         
 # LUCKY-DOG-API 使用说明
 
 
