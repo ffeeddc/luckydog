@@ -1,4 +1,25 @@
-# LUCKY DOG API 使用说明
+Table of Contents
+=================
+
+   * [LUCKY-DOG-API 使用说明](#LUCKY-DOG-API)
+      * [<strong>1. 智能合约</strong>](#1-智能合约)
+         * [1.1 luckydog.createDog(owner, seniority, name, gene, img, father, mother,trait,male_rest_time,female_rest_time)](#11-luckydog.createDog)
+         * [1.2 luckydog.createTrade(dog_id,type,amount)](#12-appsdbgetmodel-cond)
+         * [1.3 luckydog.cancelTrade(tid)](#13-luckydog.cancelTrade)
+         * [1.4 luckydog.presentDog(dog_id,uid)](#14-luckydog.presentDog)
+         * [1.5 luckydog.payDog(tid)](#15-luckydog.payDog)
+         * [1.6 luckydog.payMatch(tid,dog_id)](#16-luckydog.payMatch)
+      * [2. 查询接口](#2-查询接口)
+         * [2.1 /:uid/dogs](#21-/:uid/dogs)
+         * [2.2 /:type/trades](#21-/:type/trades)
+         * [2.3 /trade/:tid](#21-/trade/:tid)
+         * [2.4 /dog/:dog_id](#21-/dog/:dog_id)
+      * [3. 调用说明](#2-调用说明)
+               * [3.1 测试环境](#21-测试环境)
+               * [3.2 正式环境](#21-正式环境)
+         
+         
+# LUCKY-DOG-API 使用说明
 
 
 ## **1. 智能合约**
